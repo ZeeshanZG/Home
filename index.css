@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Toronto Raptors</title>
+      <style>
+         /*The first two sections are both for the headers of the webpage*/
+         h1 {
+         font-size: 34px;
+         color: #000000;
+         }
+         h2 {
+         font-size: 33px;
+         color: #000000;
+         text-align:center;
+         }
+         /*This is for the image in the webpage*/
+         img {
+         display: block;
+         margin: auto;
+         }
+         /*This is for the background image*/
+         body {
+         background-image: url("TRbackground.jpg");
+         background-repeat: no-repeat;
+         background-attachment: fixed;
+         background-position: center;
+         background-size: cover;
+         padding-top: 40px;	
+         }
+         /*This is for the paragraph*/
+         p {
+         font-size: 25px;
+         font-family: "Times New Roman", Times, serif;
+         color: #000000;
+         text-align:center;
+         font-weight: bold;
+         }
+         /*This is for the table*/
+         table, th, td {
+         border: 1px solid black;
+         padding: 5px;
+         border-spacing: 5px;
+         }
+         /*These are for the navigation bar*/
+         ul {
+         list-style-type: none;
+         margin: 0;
+         padding: 0;
+         overflow: hidden;
+         border: 1px solid #e7e7e7;
+         background-color: #f3f3f3;
+         }
+         li {
+         float: left;
+         }
+         li a {
+         display: block;
+         color: #666;
+         text-align: center;
+         padding: 14px 16px;
+         text-decoration: none;
+         }
+         li a:hover:not(.active) {
+         background-color: #ddd;
+         }
+         li a.active {
+         color: white;
+         background-color:#996515;
+         } 	 
+      </style>
+</html>
